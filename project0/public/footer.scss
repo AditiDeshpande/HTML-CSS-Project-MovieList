@@ -1,0 +1,26 @@
+@import "commonStyling.css";
+
+$colorOrangeShade: #b32400;
+$colorWhite: white;
+$fontWeight: bold;
+$colorBlack : black;
+$colorBlue : blue;
+
+%footer {
+  max-width: 70%;
+  margin: auto;
+  padding: 10px;
+  font-family: courier;
+  text-align: center;
+color: $colorBlack;
+}
+
+  .author {
+    @extend %footer;
+    font-size: 16px;
+  }
+
+.imageCredits {
+  @extend %footer;
+  font-size: 12px;
+}

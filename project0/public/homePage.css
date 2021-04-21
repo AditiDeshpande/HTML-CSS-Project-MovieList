@@ -1,0 +1,21 @@
+@import url(header.css);
+@import url(commonStyling.css);
+@import url(footer.css);
+.bg {
+  margin-top: 5px;
+  background-image: url("src/noom-peerapong-2uwFEAGUm6E-unsplash.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+ol > li {
+  font-weight: bold;
+  color: #b32400;
+  font-size: 20px;
+  padding-top: 10px; }
+
+ol, ul, li {
+  padding: 5px; }
+
+/*# sourceMappingURL=homePage.css.map */

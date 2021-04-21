@@ -1,0 +1,29 @@
+@import "header.css";
+@import "commonStyling.css";
+@import "footer.css";
+
+$colorOrangeShade: #b32400;
+$colorWhite: white;
+$fontWeight: bold;
+$colorBlack : black;
+$colorBlue : blue;
+
+.bg {
+  margin-top: 5px;
+  background-image: url("src/noom-peerapong-2uwFEAGUm6E-unsplash.jpg");
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ol > li {
+  font-weight: $fontWeight;
+  color: $colorOrangeShade;
+  font-size: 20px;
+  padding-top: 10px;
+}
+ol , ul , li{
+  padding: 5px;
+}

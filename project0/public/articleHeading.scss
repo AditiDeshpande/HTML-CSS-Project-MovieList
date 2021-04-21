@@ -1,0 +1,19 @@
+$colorOrangeShade: #b32400;
+$colorWhite: white;
+$fontWeight: bold;
+$colorBlack : black;
+$colorBlue : blue;
+
+%heading {
+  font-weight: $fontWeight;
+  color: $colorOrangeShade;
+}
+
+.articleHeading {
+  @extend %heading;
+  font-size: 27.5px;
+}
+.FL{
+  @extend %heading;
+  font-size: 40px;
+}

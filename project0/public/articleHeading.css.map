@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,oBAAS;EACP,WAAW,EALA,IAAI;EAMf,KAAK,EARY,OAAO;;AAW1B,eAAgB;EAEd,SAAS,EAAE,MAAM;;AAEnB,GAAG;EAED,SAAS,EAAE,IAAI",
+"sources": ["articleHeading.scss"],
+"names": [],
+"file": "articleHeading.css"
+}

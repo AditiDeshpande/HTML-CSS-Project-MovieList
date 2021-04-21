@@ -1,0 +1,21 @@
+@import url(commonStyling.css);
+.header {
+  display: flex;
+  flex-wrap: wrap; }
+
+.header > div {
+  font-size: 20px;
+  margin: auto;
+  color: black;
+  max-width: 40%;
+  align-content: center; }
+
+a, a:link {
+  font-weight: bold;
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  color: blue; }
+
+/*# sourceMappingURL=header.css.map */

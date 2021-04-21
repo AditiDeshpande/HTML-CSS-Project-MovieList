@@ -1,0 +1,29 @@
+@import "commonStyling.css";
+
+$colorOrangeShade: #b32400;
+$colorWhite: white;
+$fontWeight: bold;
+$colorBlack : black;
+$colorBlue : blue;
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header > div {
+
+    font-size: 20px;
+    margin: auto;
+    color: $colorBlack;
+    max-width: 40%;
+    align-content: center;
+  }
+  a , a:link {
+
+      font-weight: $fontWeight;
+      color: $colorBlack;
+      text-decoration: none;
+        }
+  a:hover {
+      color: $colorBlue;
+  }

@@ -1,0 +1,16 @@
+@import url(commonStyling.css);
+.author, .imageCredits {
+  max-width: 70%;
+  margin: auto;
+  padding: 10px;
+  font-family: courier;
+  text-align: center;
+  color: black; }
+
+.author {
+  font-size: 16px; }
+
+.imageCredits {
+  font-size: 12px; }
+
+/*# sourceMappingURL=footer.css.map */
