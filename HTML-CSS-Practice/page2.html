@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+
+        <div id="reg-form">
+            <form>
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" placeholder="Aditi" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" placeholder="Deshpande" required>
+
+
+            <!--By following code we r able to select all the 3 genders at a time which is
+                not correct
+
+            <div>
+
+                <label for="gender-male">Male</label>
+                <input type="radio" name="gender-male" value="choice1
+                <label for="gender-female">Female</label>
+                <input type="radio" name="gender-female" value="choice2">
+                <label for="gender-others">Others</label>
+                <input type="radio" name="gender-others" value="choice3">
+
+            </div>
+
+            -->
+
+            <div>
+
+                <label for="gender-male">Male</label>
+                <input type="radio" name="gender-choice" value="choice1">
+                <label for="gender-female">Female</label>
+                <input type="radio" name="gender-choice" value="choice2">
+                <label for="gender-others">Others</label>
+                <input type="radio" name="gender-choice" value="choice3">
+
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="gender-choice" placeholder="abc@email.com">
+
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+
+            <div>
+
+                <label for="Month">Birthday</label>
+                <select name="Month">
+                    <<option value="0" selected disabled>Month</option>
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+
+                </select>
+
+            </div>
+
+            <div>
+                <label for="agree">I agree to all the conditions of the form</label>
+                <input type="checkbox" name="agree" >
+            </div>
+
+            <br>
+            <div>
+            <button type="button" name="submit">Submit</button>
+            </div>
+
+
+            </form>
+        </div>
+
+
+    </body>
+</html>
