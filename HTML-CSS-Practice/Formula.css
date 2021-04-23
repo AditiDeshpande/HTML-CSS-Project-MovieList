@@ -1,0 +1,15 @@
+ul{
+    background-color: #74992e;
+    width: 360px;
+    margin: 100px,auto;
+    color: black;
+}
+li:nth-child(2n){
+    background-color: white;
+}
+li:first-child{
+    background-color: red;
+}
+li:last-child{
+    background-color: red;
+}
