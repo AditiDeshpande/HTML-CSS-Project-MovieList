@@ -1,0 +1,43 @@
+div{
+    background: purple;
+    color: white;
+}
+
+#aboutyog{
+    font-family: "verdana" , "gill sans";
+    color: orange;
+}
+
+.yogt{
+    color: white;
+    background: steelblue;
+    font-style: italic;
+}
+
+span#author{
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+#stasanas ol li{
+    color: green;
+    background: white;
+}
+
+#stasanas ul li{
+    color: orange;
+    background: white;
+}
+
+h3 + p{
+        background: maroon;
+        color: white;
+}
+
+/*
+Foll style will apply to all the paragraphs having class
+*/
+p[class]{
+    background: teal;
+    color: black;
+}
